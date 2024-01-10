@@ -1,0 +1,312 @@
+ERROR - 2023-12-31 04:40:47 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Users/irfanduman/Desktop/udemy-php/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Users/irfanduman/Desktop/udemy-php/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'udemy', 3306, '', 0)
+#1 /Users/irfanduman/Desktop/udemy-php/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/irfanduman/Desktop/udemy-php/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/irfanduman/Desktop/udemy-php/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Users/irfanduman/Desktop/udemy-php/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Users/irfanduman/Desktop/udemy-php/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Users/irfanduman/Desktop/udemy-php/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Users/irfanduman/Desktop/udemy-php/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Users/irfanduman/Desktop/udemy-php/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Users/irfanduman/Desktop/udemy-php/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Users/irfanduman/Desktop/udemy-php/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Users/irfanduman/Desktop/udemy-php/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Users/irfanduman/Desktop/udemy-php/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/irfanduman/Desktop/udemy-php/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/irfanduman/Desktop/udemy-php/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Users/irfanduman/Desktop/udemy-php/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Users/irfanduman/Desktop/udemy-php/system/Database/MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Users/irfanduman/Desktop/udemy-php/system/Database/MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Users/irfanduman/Desktop/udemy-php/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Users/irfanduman/Desktop/udemy-php/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Users/irfanduman/Desktop/udemy-php/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Users/irfanduman/Desktop/udemy-php/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2023-12-31 05:09:34 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:10:10 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:10:27 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:10:33 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:10:55 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:11:42 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:11:42 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:11:47 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:11:48 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:12:42 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:12:43 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:13:48 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:13:48 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:15:33 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:15:34 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:15:34 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:15:34 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:15:44 --> Error: Class "Models\UserModel" not found
+in APPPATH/Controllers/Home.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:20:00 --> Error: Object of class App\Entities\UserEntity could not be converted to string
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:20:07 --> Error: Typed property App\Entities\UserEntity::$id must not be accessed before initialization
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:21:00 --> Error: Typed property App\Entities\UserEntity::$id must not be accessed before initialization
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:23:14 --> Error: Typed property App\Entities\UserEntity::$id must not be accessed before initialization
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:23:15 --> Error: Typed property App\Entities\UserEntity::$id must not be accessed before initialization
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:23:15 --> Error: Typed property App\Entities\UserEntity::$id must not be accessed before initialization
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:23:15 --> Error: Typed property App\Entities\UserEntity::$id must not be accessed before initialization
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:23:39 --> Error: Call to undefined method App\Entities\UserEntity::getId()
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:24:46 --> Error: Call to undefined method App\Entities\UserEntity::getId()
+in APPPATH/Controllers/Home.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 05:25:50 --> ParseError: syntax error, unexpected identifier "name", expecting variable
+in APPPATH/Entities/UserEntity.php on line 13.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/irfanduman/Desktop/udemy-php/app/Entities/UserEntity.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\UserEntity')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\UserEntity')
+ 4 SYSTEMPATH/Database/MySQLi/Result.php(150): is_subclass_of('App\\Entities\\UserEntity', 'CodeIgniter\\Entity\\Entity')
+ 5 SYSTEMPATH/Database/BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\UserEntity')
+ 6 SYSTEMPATH/Database/BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\UserEntity')
+ 7 SYSTEMPATH/Database/BaseResult.php(393): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\UserEntity')
+ 8 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseResult->getFirstRow('App\\Entities\\UserEntity')
+ 9 SYSTEMPATH/BaseModel.php(577): CodeIgniter\Model->doFind(true, 1)
+10 APPPATH/Controllers/Home.php(12): CodeIgniter\BaseModel->find(1)
+11 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+12 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 07:04:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/main.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main.php')
+ 2 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('layout/main', [], true)
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('index')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 07:40:26 --> Error: Call to undefined method CodeIgniter\View\View::view()
+in APPPATH/Views/layout/base.php on line 32.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('layout/base', [], true)
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH/Controllers/Home.php(9): view('index')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 07:40:39 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/layout/base.php on line 32.
+ 1 APPPATH/Views/layout/base.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', '/Users/irfanduman/Desktop/udemy-php/app/Views/layout/base.php', 32)
+ 2 SYSTEMPATH/View/View.php(228): include('/Users/irfanduman/Desktop/udemy-php/app/Views/layout/base.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('layout/base', [], true)
+ 5 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH/Controllers/Home.php(9): view('index')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 07:45:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "footer.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+ 2 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('footer', null, true)
+ 3 APPPATH/Views/layout/base.php(32): CodeIgniter\View\View->include('footer')
+ 4 SYSTEMPATH/View/View.php(228): include('/Users/irfanduman/Desktop/udemy-php/app/Views/layout/base.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('layout/base', [], true)
+ 7 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 8 APPPATH/Controllers/Home.php(9): view('index')
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 07:48:18 --> Error: Call to undefined method CodeIgniter\View\View::view()
+in APPPATH/Views/layout/base.php on line 32.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('layout/base', [], true)
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH/Controllers/Home.php(9): view('index')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
+CRITICAL - 2023-12-31 07:49:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/footer.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/footer.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('/footer', [], true)
+ 3 APPPATH/Views/layout/base.php(32): view('/footer')
+ 4 SYSTEMPATH/View/View.php(228): include('/Users/irfanduman/Desktop/udemy-php/app/Views/layout/base.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('layout/base', [], true)
+ 7 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 8 APPPATH/Controllers/Home.php(9): view('index')
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/irfanduman/Desktop/udemy-php/public/index.php')
