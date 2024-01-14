@@ -10,12 +10,13 @@
         "slack": "https://codeigniterchat.slack.com"
     },
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^8.0",
         "ext-intl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
         "laminas/laminas-escaper": "^2.9",
-        "psr/log": "^1.1"
+        "psr/log": "^1.1",
+        "zircote/swagger-php": "^4.8"
     },
     "require-dev": {
         "codeigniter/coding-standard": "^1.5",

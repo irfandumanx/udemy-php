@@ -6,15 +6,25 @@ use CodeIgniter\Entity\Entity;
 
 class UserEntity extends Entity
 {
+    protected $attributes = [
+        'id' => null,
+        'email' => null,
+        'username' => null,
+        'password' => null,
+        'name' => null,
+        'surname' => null,
+    ];
+    protected $casts = [
+        'id' => 'int',
+        'email' => 'string',
+        'username' => 'string',
+        'password' => 'string',
+        'name' => '?string',
+        'surname' => '?string',
+    ];
 
-    private int $id;
-    private string $username;
-    private string $email;
-    private string $name;
-    private string $surname;
-
-    public function __get(string $key)
+    public function getValues(): array
     {
-        return $this->attributes[$key];
+        return $this->original;
     }
 }

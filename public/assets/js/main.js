@@ -899,9 +899,9 @@
                     $(this).text('Show Less');
                     $(this).parent('.has-show-more').toggleClass('active');
                     if ($(this).parent('.has-show-more').hasClass('active')) {
-                        $(this).text('Show Less');
+                        $(this).text('Gizle');
                     } else {
-                        $(this).text('Show More');
+                        $(this).text('Daha Fazla Göster');
                     }
                 });
             };
